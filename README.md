@@ -22,7 +22,6 @@
 This repository is a standalone package of the DeepsmirUD method. DeepsmirUD is used to predict small molecule-mediated regulatory effects on miRNA expression. This method is powered by 12 cutting-edged deep learning models.
 
 ## Installation
-Released via https://pypi.org/project/deepsmirud/
 ```angular2html
 pip install deepsmirud
 ```
