@@ -99,10 +99,3 @@ Please cite our work if you use DeepsmirUD in your research.
 
 ## Contact
 If you have any question, please contact [Jianfeng Sun](jianfeng.sunmt@gmail.com). We highly recommend creating issue pages when you have problems. Your issues will be responded then.
-
-<style>
-  code {
-    white-space : pre-wrap !important;
-    word-break: break-word;
-  }
-</style>
