@@ -1,5 +1,8 @@
 # ingore data folder
 deepsmirud/model/
+bld.bat
+build.sh
+meta.yaml
 
 
 # Byte-compiled / optimized / DLL files

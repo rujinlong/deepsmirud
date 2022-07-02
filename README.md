@@ -7,7 +7,7 @@
 [![Downloads](https://pepy.tech/badge/deepsmirud/month)](https://pepy.tech/project/deepsmirud)
 [![Downloads](https://pepy.tech/badge/deepsmirud/week)](https://pepy.tech/project/deepsmirud)
 
-###### tags: `DeepsmirUD` `miRNA` `drugs` `gene regulation`
+###### tags: `miRNA` `drugs` `gene regulation`
 
 
 ## Overview
@@ -22,8 +22,15 @@
 This repository is a standalone package of the DeepsmirUD method. DeepsmirUD is used to predict small molecule-mediated regulatory effects on miRNA expression. This method is powered by 12 cutting-edged deep learning models.
 
 ## Installation
+* ### PyPI
 ```angular2html
 pip install deepsmirud
+```
+
+* ### Conda (*python 3.7)
+
+```
+conda install -c jianfeng_sun deepsmirud
 ```
 
 ## Overview
@@ -98,3 +105,4 @@ Please cite our work if you use DeepsmirUD in your research.
 
 ## Contact
 If you have any question, please contact [Jianfeng Sun](jianfeng.sunmt@gmail.com). We highly recommend creating issue pages when you have problems. Your issues will be responded then.
+
