@@ -8,6 +8,7 @@ on:
   push:
     paths:
       - 'Dockerfile'
+      - '.github/workflow/upload_to_docker.yml'
 
 jobs:
   push_to_registry:
