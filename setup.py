@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="deepsmirud",
+    name="deepsmirud2",
     # version="0.0.1",
     version="0.0.0.0.16",
     keywords=("pip", "deepsmirud"),
-    description="deepsmirud",
+    description="deepsmirud2",
     long_description="deep learning SM-miR relation",
     license="MIT",
 
