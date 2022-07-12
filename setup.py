@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="deepsmirud2",
     # version="0.0.1",
-    version="0.0.0.0.26",
+    version="0.1.1",
     keywords=("pip", "deepsmirud"),
     description="deepsmirud",
     long_description="deep learning SM-miR relation",
