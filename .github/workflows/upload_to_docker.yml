@@ -5,6 +5,9 @@ on:
     workflows: ["Build for Anaconda"]
     types:
       - completed
+  paths:
+    - 'Dockerfile'
+
 
 jobs:
   push_to_registry:

@@ -5,7 +5,7 @@ LABEL author="Jianfeng Sun"
 USER root
 
 # Install packages into `base` env, because nextflow can't use other envs.
-RUN micromamba install -n base -c jianfengsun deepsmirud && \
+RUN micromamba install -n base -c jianfeng_sun deepsmirud && \
     micromamba clean --all --yes
 
 # Activate conda env during docker build
