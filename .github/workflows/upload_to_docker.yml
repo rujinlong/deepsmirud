@@ -9,6 +9,8 @@ on:
     paths:
       - 'Dockerfile'
       - '.github/workflow/upload_to_docker.yml'
+    tags:
+      - 't*'
 
 jobs:
   push_to_registry:
