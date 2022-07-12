@@ -1,15 +1,15 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="deepsmirud",
+    name="deepsmirud2",
     # version="0.0.1",
-    version="0.0.0.0.25",
+    version="0.0.0.0.26",
     keywords=("pip", "deepsmirud"),
     description="deepsmirud",
     long_description="deep learning SM-miR relation",
     license="MIT",
 
-    url="https://github.com/2003100127",
+    url="https://github.com/2003100127/deepsmirud",
     author="Jianfeng Sun",
     author_email="jianfeng.sunmt@gmail.com",
 

@@ -1,0 +1,55 @@
+{% set name = "deepsmirud" %}
+{% set version = "0.0.0.0.26" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  path: "../"
+
+build:
+  number: 0
+  entry_points:
+    - deepsmirud=deepsmirud.Main:main
+    - deepsmirud_download=deepsmirud.Main:download
+  script: "{{ PYTHON }} -m pip install . -vv"
+
+requirements:
+  host:
+    - biopython
+    - click
+    - numpy=1.20
+    - pandas
+    - pip
+    - pyfiglet
+    - python=3.7
+    - rdkit
+    - tensorflow=2.6.0
+    - tensorflow-base=2.6.0
+  run:
+    - biopython
+    - click
+    - numpy=1.20
+    - pandas
+    - pyfiglet
+    - python=3.7
+    - rdkit
+    - tensorflow=2.6.0
+    - tensorflow-base=2.6.0
+
+test:
+  imports:
+    - deepsmirud
+  commands:
+    - deepsmirud --help
+    - deepsmirud_download --help
+
+about:
+  home: "https://github.com/2003100127/deepsmirud"
+  license: MIT
+  license_family: MIT
+  license_file: 
+  summary: "deepsmirud"
+  doc_url: 
+  dev_url: 
