@@ -9,6 +9,9 @@
 
 ###### tags: `miRNA` `drugs` `gene regulation`
 
+news! 
+1. DeepsmirUD is available with being installed with a docker image.
+2. Supplementary Tables S5-23 are available in the repository.
 
 ## Overview
 ```angular2html
@@ -31,6 +34,11 @@ pip install deepsmirud
 
 ```
 conda install -c jianfeng_sun deepsmirud
+```
+
+* ### Docker installation
+```
+docker pull 2003100127/deepsmirud
 ```
 
 ## Overview
