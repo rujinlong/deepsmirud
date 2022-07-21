@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="deepsmirud",
     # version="0.0.1",
-    version="0.0.0.0.25",
+    version="0.0.0.0.26",
     keywords=("pip", "deepsmirud"),
     description="deepsmirud",
     long_description="deep learning SM-miR relation",
@@ -23,8 +23,9 @@ setup(
         'biopython==1.79',
         'pyfiglet==0.8.post1',
         'click==8.1.3',
-        'tensorflow==2.6.0',
-        'rdkit-pypi==2022.3.1',
+        'tensorflow',
+        # 'rdkit-pypi==2022.3.1',
+        'rdkit',
     ],
     entry_points={
         'console_scripts': [
